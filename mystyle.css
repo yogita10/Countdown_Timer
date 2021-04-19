@@ -1,0 +1,99 @@
+
+body{
+	text-align: center;
+	background: #FFF;
+  font-family: sans-serif;
+  font-weight: 100;
+  /*background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);*/
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+}
+
+h1{
+  color: black;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 135px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 55px;
+}
+
+#clockdiv > div{
+	padding: 50px;
+	border-radius: 7px;
+	background: darkblue;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 65px;
+	border-radius: 3px;
+	background: #000;
+	display: inline-block;
+}
+
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/*
+
+body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+*/

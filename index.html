@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Count down Timer</title>
+        <meta name="description" content="holiday count down calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="icon" href="data:image/png;base64,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">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+       
+    </head>
+	
+	
+    <body>
+	<h1>Countdown Clock</h1>
+	<div id="clockdiv">
+	  <div>
+		<span class="days"></span>
+		<div class="smalltext">Days</div>
+	  </div>
+	  <div>
+		<span class="hours"></span>
+		<div class="smalltext">Hours</div>
+	  </div>
+	  <div>
+		<span class="minutes"></span>
+		<div class="smalltext">Minutes</div>
+	  </div>
+	  <div>
+		<span class="seconds"></span>
+		<div class="smalltext">Seconds</div>
+	  </div>
+     </div>
+
+	
+         
+	    <script src="myscript.js"></script>
+		
+		
+    </body>
+</html>
